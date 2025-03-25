@@ -1,0 +1,261 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwdaaa8u31lyn"]
+
+[ext_resource type="Script" uid="uid://4yotlexn1mxk" path="res://pathfinding_system.gd" id="1_kdftf"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_4qh75"]
+radius = 20.0
+height = 40.0
+
+[node name="pathfinding_system" type="Node2D"]
+script = ExtResource("1_kdftf")
+
+[node name="map" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="1" type="Line2D" parent="map"]
+points = PackedVector2Array(736, 32, 640, 128, 544, 64)
+
+[node name="2" type="Line2D" parent="map"]
+points = PackedVector2Array(96, 96, 192, 32)
+
+[node name="3" type="Line2D" parent="map"]
+points = PackedVector2Array(544, 64, 384, 96)
+
+[node name="4" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 192, 384, 96)
+
+[node name="5" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 192, 544, 192)
+
+[node name="6" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 192, 320, 224)
+
+[node name="7" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 192, 448, 320)
+
+[node name="8" type="Line2D" parent="map"]
+points = PackedVector2Array(256, 64, 320, 224)
+
+[node name="9" type="Line2D" parent="map"]
+points = PackedVector2Array(320, 224, 192, 352)
+
+[node name="10" type="Line2D" parent="map"]
+points = PackedVector2Array(320, 224, 192, 224)
+
+[node name="11" type="Line2D" parent="map"]
+points = PackedVector2Array(96, 224, 192, 352)
+
+[node name="12" type="Line2D" parent="map"]
+points = PackedVector2Array(96, 224, 32, 384)
+
+[node name="13" type="Line2D" parent="map"]
+points = PackedVector2Array(96, 224, 256, 64)
+
+[node name="14" type="Line2D" parent="map"]
+points = PackedVector2Array(416, 32, 256, 64)
+
+[node name="15" type="Line2D" parent="map"]
+points = PackedVector2Array(96, 224, 32, 32)
+
+[node name="16" type="Line2D" parent="map"]
+points = PackedVector2Array(768, 608, 928, 672)
+
+[node name="17" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 320, 192, 352)
+
+[node name="18" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 320, 320, 480)
+
+[node name="19" type="Line2D" parent="map"]
+points = PackedVector2Array(576, 448, 320, 480)
+
+[node name="20" type="Line2D" parent="map"]
+points = PackedVector2Array(384, 576, 320, 480)
+
+[node name="21" type="Line2D" parent="map"]
+points = PackedVector2Array(384, 576, 320, 640)
+
+[node name="22" type="Line2D" parent="map"]
+points = PackedVector2Array(608, 672, 320, 640)
+
+[node name="23" type="Line2D" parent="map"]
+points = PackedVector2Array(160, 672, 320, 640)
+
+[node name="24" type="Line2D" parent="map"]
+points = PackedVector2Array(608, 672, 768, 608)
+
+[node name="25" type="Line2D" parent="map"]
+points = PackedVector2Array(160, 544, 320, 640)
+
+[node name="26" type="Line2D" parent="map"]
+points = PackedVector2Array(160, 544, 64, 640)
+
+[node name="27" type="Line2D" parent="map"]
+points = PackedVector2Array(192, 448, 320, 480)
+
+[node name="28" type="Line2D" parent="map"]
+points = PackedVector2Array(192, 448, 192, 352)
+
+[node name="29" type="Line2D" parent="map"]
+points = PackedVector2Array(192, 448, 32, 384)
+
+[node name="30" type="Line2D" parent="map"]
+points = PackedVector2Array(192, 448, 160, 544)
+
+[node name="31" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 320, 640, 352)
+
+[node name="32" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 320, 576, 448)
+
+[node name="33" type="Line2D" parent="map"]
+points = PackedVector2Array(544, 192, 640, 352)
+
+[node name="34" type="Line2D" parent="map"]
+points = PackedVector2Array(544, 192, 640, 128)
+
+[node name="35" type="Line2D" parent="map"]
+points = PackedVector2Array(832, 160, 1088, 256)
+
+[node name="36" type="Line2D" parent="map"]
+points = PackedVector2Array(1088, 384, 1088, 256)
+
+[node name="37" type="Line2D" parent="map"]
+points = PackedVector2Array(992, 128, 1088, 256)
+
+[node name="38" type="Line2D" parent="map"]
+points = PackedVector2Array(992, 128, 1152, 96)
+
+[node name="39" type="Line2D" parent="map"]
+points = PackedVector2Array(1216, 192, 1152, 96)
+
+[node name="40" type="Line2D" parent="map"]
+points = PackedVector2Array(1216, 32, 1152, 96)
+
+[node name="41" type="Line2D" parent="map"]
+points = PackedVector2Array(1216, 192, 1088, 384)
+
+[node name="42" type="Line2D" parent="map"]
+points = PackedVector2Array(1216, 192, 1184, 480)
+
+[node name="43" type="Line2D" parent="map"]
+points = PackedVector2Array(1184, 480, 1088, 384)
+
+[node name="44" type="Line2D" parent="map"]
+points = PackedVector2Array(1088, 384, 864, 384)
+
+[node name="45" type="Line2D" parent="map"]
+points = PackedVector2Array(1088, 384, 928, 448)
+
+[node name="46" type="Line2D" parent="map"]
+points = PackedVector2Array(1120, 512, 928, 448)
+
+[node name="47" type="Line2D" parent="map"]
+points = PackedVector2Array(1120, 512, 928, 672)
+
+[node name="48" type="Line2D" parent="map"]
+points = PackedVector2Array(1184, 608, 928, 672)
+
+[node name="49" type="Line2D" parent="map"]
+points = PackedVector2Array(1184, 608, 1184, 480)
+
+[node name="50" type="Line2D" parent="map"]
+points = PackedVector2Array(1184, 608, 1216, 672)
+
+[node name="51" type="Line2D" parent="map"]
+points = PackedVector2Array(992, 576, 928, 448)
+
+[node name="52" type="Line2D" parent="map"]
+points = PackedVector2Array(864, 384, 1024, 288)
+
+[node name="53" type="Line2D" parent="map"]
+points = PackedVector2Array(832, 160, 864, 384)
+
+[node name="54" type="Line2D" parent="map"]
+points = PackedVector2Array(736, 32, 832, 64)
+
+[node name="55" type="Line2D" parent="map"]
+points = PackedVector2Array(832, 160, 832, 64)
+
+[node name="56" type="Line2D" parent="map"]
+points = PackedVector2Array(992, 32, 832, 64)
+
+[node name="57" type="Line2D" parent="map"]
+points = PackedVector2Array(992, 32, 992, 128)
+
+[node name="58" type="Line2D" parent="map"]
+points = PackedVector2Array(832, 160, 736, 224)
+
+[node name="59" type="Line2D" parent="map"]
+points = PackedVector2Array(864, 384, 736, 416)
+
+[node name="60" type="Line2D" parent="map"]
+points = PackedVector2Array(736, 224, 736, 416)
+
+[node name="61" type="Line2D" parent="map"]
+points = PackedVector2Array(640, 352, 736, 224)
+
+[node name="62" type="Line2D" parent="map"]
+points = PackedVector2Array(736, 32, 736, 224)
+
+[node name="63" type="Line2D" parent="map"]
+points = PackedVector2Array(640, 128, 736, 224)
+
+[node name="64" type="Line2D" parent="map"]
+points = PackedVector2Array(640, 352, 736, 416)
+
+[node name="65" type="Line2D" parent="map"]
+points = PackedVector2Array(576, 448, 640, 352)
+
+[node name="66" type="Line2D" parent="map"]
+points = PackedVector2Array(576, 448, 608, 544)
+
+[node name="67" type="Line2D" parent="map"]
+points = PackedVector2Array(448, 576, 608, 544)
+
+[node name="68" type="Line2D" parent="map"]
+points = PackedVector2Array(768, 608, 608, 544)
+
+[node name="69" type="Line2D" parent="map"]
+points = PackedVector2Array(768, 608, 640, 352)
+
+[node name="70" type="Line2D" parent="map"]
+points = PackedVector2Array(768, 608, 864, 384)
+
+[node name="71" type="Line2D" parent="map"]
+points = PackedVector2Array(768, 608, 992, 576)
+
+[node name="start" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(320, 224)
+gizmo_extents = 20.0
+
+[node name="point" type="MeshInstance2D" parent="start"]
+modulate = Color(0, 0.427451, 1, 1)
+mesh = SubResource("SphereMesh_4qh75")
+metadata/_edit_lock_ = true
+
+[node name="target" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(1024, 288)
+gizmo_extents = 20.0
+
+[node name="point" type="MeshInstance2D" parent="target"]
+modulate = Color(0.443137, 0.67451, 0, 1)
+mesh = SubResource("SphereMesh_4qh75")
+metadata/_edit_lock_ = true
+
+[node name="ui" type="CanvasLayer" parent="."]
+
+[node name="label" type="Label" parent="ui"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -41.5
+offset_right = 41.5
+offset_bottom = 42.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 30
+text = "CLICK"
+horizontal_alignment = 1
+vertical_alignment = 1
